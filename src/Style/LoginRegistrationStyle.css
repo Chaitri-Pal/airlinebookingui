@@ -1,0 +1,64 @@
+/* LoginStyle.css */
+
+/* LoginStyle.css */
+
+.login-container {
+  background-image: url("C:\Users\CHAITRI\Downloads\airlinebookingui\public\images\flightloginregistration.jpg"); 
+  background-position: center;
+  height: 150vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Text color for the login form */
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the login form */
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #000; /* Change label text color to black */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-button {
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-link {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #000; /* Change link text color to black */
+  font-weight: bold; /* Add font-weight: bold */
+}
+
+.register-button {
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.account-text {
+  color: #000; /* Set the text color to black */
+  font-weight: bold; /* Set the font weight to bold */
+}
